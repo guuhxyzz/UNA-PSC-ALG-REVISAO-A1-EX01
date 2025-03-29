@@ -1,0 +1,79 @@
+{
+	"java.project.sourcePaths": [
+		"src"
+	],
+	"java.project.outputPath": "bin",
+	"java.project.referencedLibraries": [
+		"lib/**/*.jar"
+	],
+	"breadcrumbs.enabled": false,
+	"editor.fontFamily": "'Cascadia Code', 'JetBrains Mono'",
+	"editor.fontSize": 13,
+	"editor.letterSpacing": 1.0,
+	"editor.lineHeight": 20,
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 2,
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.renderLineHighlight": "line",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"telemetry.telemetryLevel": "off",
+	"terminal.integrated.defaultLocation": "view",
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.fontSize": 11,
+	"terminal.integrated.fontFamily": "'Cascadia Code', 'JetBrains Mono'",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell",
+			"args": [
+				"-NoLogo"
+			]
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.enablePersistentSessions": false,
+	"update.enableWindowsBackgroundUpdates": true,
+	"update.mode": "default",
+	"update.showReleaseNotes": false,
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.menuBarVisibility": "compact",
+	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.sideBar.location": "left",
+	"workbench.statusBar.visible": false,
+	"workbench.startupEditor": "none",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"redhat.telemetry.enabled": false,
+	"xml.symbols.maxItemsComputed": 50000,
+	"xml.server.vmargs": "-Xmx128M",
+	"codesnap.transparentBackground": true,
+	"codesnap.showWindowTitle": true,
+	"codesnap.containerPadding": "0.1em",
+	"window.zoomLevel": 0,
+	"java.debug.settings.onBuildFailureProceed": true
+}

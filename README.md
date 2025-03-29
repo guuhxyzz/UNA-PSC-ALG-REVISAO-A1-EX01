@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="logo\virus.png" width="300" alt="Virus">
+    <img src="lib\virus.png" width="300" alt="Virus">
   </a>
 </p>
 
