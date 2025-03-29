@@ -61,7 +61,7 @@
 	"update.showReleaseNotes": false,
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"window.menuBarVisibility": "compact",
-	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.colorTheme": "GitHub Dark Default",
 	"workbench.sideBar.location": "left",
 	"workbench.statusBar.visible": false,
 	"workbench.startupEditor": "none",
