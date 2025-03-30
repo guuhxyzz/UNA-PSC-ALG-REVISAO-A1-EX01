@@ -63,13 +63,14 @@ public class App {
                     Probabilidade de infecção: %d%%
                     """.formatted(nome, idade, cartaoVacina, sintomas, contatoSintomas, viagemExterior, probabilidadeInfeccao));
                 // Calculo da probabilidade de infecção
-                if (probabilidadeInfeccao <= 30){
+                if (viagemExterior.equalsIgnoreCase("SIM")){
+                    System.out.println("Você ficará sob observação por 05 dias.");
+                } else if (probabilidadeInfeccao <= 30){
                     System.out.println("Paciente sob observação. Caso apareça algum sintoma, gentileza buscar assistência médica.");
                 } else if (probabilidadeInfeccao <=  60){
-                    System.out.println("Paciente com risco de estar infectado. Gentileza aguardar em lockdown por 02 dias para ser acompanhado.");                    } else if (probabilidadeInfeccao >= 90){
+                    System.out.println("Paciente com risco de estar infectado. Gentileza aguardar em lockdown por 02 dias para ser acompanhado.");                    
+                } else if (probabilidadeInfeccao >= 90){
                     System.out.println("Paciente crítico! Gentileza aguardar em lockdown por 10 dias para ser acompanhado.");
-                } else if (viagemExterior.equalsIgnoreCase("SIM")){
-                    System.out.println("Você ficará sob observação por 05 dias.");
                 }
                 break;
                 }
