@@ -54,6 +54,7 @@ public class App {
                 }
                 // Dados do paciente
                 System.out.println("""
+                    ====================
                     Nome do paciente: %s
                     Idade do paciente: %d
                     Cartão de vacina: %s
@@ -61,6 +62,7 @@ public class App {
                     Contato com pessoas com sintomas gripais: %s
                     Retorno de viagem realizada no exterior: %s
                     Probabilidade de infecção: %d%%
+                    ====================
                     """.formatted(nome, idade, cartaoVacina, sintomas, contatoSintomas, viagemExterior, probabilidadeInfeccao));
                 // Calculo da probabilidade de infecção
                 if (viagemExterior.equalsIgnoreCase("SIM")){
